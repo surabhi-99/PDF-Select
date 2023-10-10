@@ -80,7 +80,7 @@ Before you begin, ensure you have the following requirements:
    ```bash
    npm start
 
-   ```
+   ``` 
 
 ### Frontend Setup
 
@@ -93,19 +93,22 @@ Before you begin, ensure you have the following requirements:
 
 2. Navigate to the frontend directory:
 
-````bash
-cd frontend
+   ````bash
+   cd frontend
 
+   ````
 
 3. Install frontend dependencies:
 
-```bash
-npm install
+   ```bash
+   npm install
+   ```
 
 4. Start the frontend development server:
 
 ```bash
 npm start
+```
 
 5. Usage
 
@@ -118,5 +121,5 @@ To run tests, use the following command:
 
   ```bash
   npm test
-  
+
   ```
