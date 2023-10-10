@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with PDF Select App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -35,36 +35,88 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Running the Backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In addition to the frontend, this project also includes a backend server. Follow the steps below to run both the frontend and backend:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+Before you begin, ensure you have the following requirements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (v6 or higher)
+- [MongoDB](https://www.mongodb.com/) (v4.4 or higher) - Required for the backend
 
-### Analyzing the Bundle Size
+### Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository:
 
-### Making a Progressive Web App
+   ```bash
+   git clone https://github.com/surabhi-99/PDF-Select
+   cd PDF-Select
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```
 
-### Advanced Configuration
+2. Navigate to the backend directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   cd backend
 
-### Deployment
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Install backend dependencies:
 
-### `npm run build` fails to minify
+   ```bash
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```
+
+4. Configure environment variables by creating a .env file in the backend directory. Example:
+
+   ```bash
+   npm start
+
+   ```
+
+### Frontend Setup
+
+1. Navigate back to the project root:
+
+   ```bash
+   cd ..
+
+   ```
+
+2. Navigate to the frontend directory:
+
+````bash
+cd frontend
+
+
+3. Install frontend dependencies:
+
+```bash
+npm install
+
+4. Start the frontend development server:
+
+```bash
+npm start
+
+5. Usage
+
+Access the frontend application at http://localhost:3000 in your web browser.
+Interact with the application to [describe how to use your app].
+
+6. Testing
+
+To run tests, use the following command:
+
+  ```bash
+  npm test
+  
+  ```
