@@ -113,12 +113,12 @@ Before you begin, ensure you have the following requirements:
 
 5. Usage
 
-Access the frontend application at http://localhost:3000 in your web browser.
-Interact with the application by clicking Upload Button to upload PDF File.
+   Access the frontend application at http://localhost:3000 in your web browser.
+   Interact with the application by clicking Upload Button to upload PDF File.
 
 6. Testing
 
-To run tests, use the following command:
+   To run tests, use the following command:
 
    ```bash
    npm test
