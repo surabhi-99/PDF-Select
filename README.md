@@ -80,7 +80,7 @@ Before you begin, ensure you have the following requirements:
    ```bash
    npm start
 
-   ``` 
+   ```
 
 ### Frontend Setup
 
@@ -93,33 +93,35 @@ Before you begin, ensure you have the following requirements:
 
 2. Navigate to the frontend directory:
 
-   ````bash
+   ```bash
    cd frontend
 
-   ````
+   ```
 
 3. Install frontend dependencies:
 
    ```bash
    npm install
+   
    ```
 
 4. Start the frontend development server:
 
-```bash
-npm start
-```
+   ```bash
+   npm start
+
+   ```
 
 5. Usage
 
 Access the frontend application at http://localhost:3000 in your web browser.
-Interact with the application to [describe how to use your app].
+Interact with the application by clicking Upload Button to upload PDF File.
 
 6. Testing
 
 To run tests, use the following command:
 
-  ```bash
-  npm test
+   ```bash
+   npm test
 
-  ```
+   ```
