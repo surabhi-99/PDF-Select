@@ -1,0 +1,38 @@
+/* src/app.css */
+
+/* Center the app elements horizontally */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; /* Center horizontally only */
+}
+
+/* Style the heading */
+.heading {
+  font-size: 28px; /* Increase font size */
+  color: #007bff; /* Text color */
+  margin-bottom: 20px; /* Add margin below the heading */
+}
+
+/* Style the upload button */
+.upload-btn {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  padding: 15px 30px; /* Increased padding for larger button */
+  border: none;
+  border-radius: 20px; /* Curved border applied to the button */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow applied to the button */
+  transition: background-color 0.3s, transform 0.2s; /* Transition effects for hover */
+}
+
+.upload-btn:hover {
+  background-color: #0056b3; /* Hover background color */
+  transform: scale(1.05); /* Slightly scale up the button on hover */
+}
