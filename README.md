@@ -49,7 +49,6 @@ Before you begin, ensure you have the following requirements:
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (v6 or higher)
-- [MongoDB](https://www.mongodb.com/) (v4.4 or higher) - Required for the backend
 
 ### Backend Setup
 
@@ -64,7 +63,7 @@ Before you begin, ensure you have the following requirements:
 2. Navigate to the backend directory:
 
    ```bash
-   cd backend
+   cd back-end
 
    ```
 
@@ -94,7 +93,7 @@ Before you begin, ensure you have the following requirements:
 2. Navigate to the frontend directory:
 
    ```bash
-   cd frontend
+   cd front-end
 
    ```
 
@@ -102,7 +101,7 @@ Before you begin, ensure you have the following requirements:
 
    ```bash
    npm install
-   
+
    ```
 
 4. Start the frontend development server:
